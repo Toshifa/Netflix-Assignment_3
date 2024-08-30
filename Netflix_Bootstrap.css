@@ -1,0 +1,176 @@
+*{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.header_image{
+    
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.7),rgba(10, 10, 10, 0.7)),
+     url('./assets/images/Header_Image.jpg') ;
+    background-size: cover; 
+    background-position: 50%;
+    height: 750px;
+    position: relative;
+    
+}
+nav{
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+nav img,
+nav button
+{
+    position: relative;
+    z-index: 10;
+}
+.language{
+    border-radius: 0%;
+
+}
+.language:hover{
+    background-color: black;
+    color: white;
+}
+
+/* HEADING SECTION */
+
+.main-title{
+    font-size: 48px;
+}
+.main-p1{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.main-p2{
+    font-size:20px ;
+    font-weight: 400;
+    line-height: 1.9rem;    
+}
+
+#floatingInputGrid{
+    color: #7a787a;
+}
+
+.btn-red{
+    background: rgb(241, 24, 24);
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 4px;
+    padding: 5px 17px;
+}
+.btn-red:hover{
+    background: red;
+} 
+
+/* SECTIONS */
+
+.section-title{
+    font-size: 48px ;
+    font-weight: bolder;
+}
+.section-paragraph{
+    font-size: 24px ;
+    font-weight: normal;
+
+}
+
+.sec-img{
+    position: relative;
+}
+.sec-img img{
+    width: 576px;
+    position: relative;
+    z-index: 10;    
+}
+.sec-img video{
+    position: absolute;
+    top: 65px;
+    right: 0;
+    
+}
+.sec-img2{
+    position: relative;
+}
+.sec-img2 img{
+    width: 576px;
+    position: relative;
+    z-index: 10;    
+}
+.sec-img2 video{
+    position: absolute;
+    top: 53px;
+    right: 88px;
+    width: 355px;
+}
+
+.section_1,
+.section_2,
+.section_3,
+.section_4,
+.faq,
+.foot{
+    border-top: 8px solid rgb(36, 35, 35);
+}
+
+/* FAQ */
+
+.faq-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+.btn-faq{
+    background-color: #2b2929;
+    height:80px;
+    width: 900px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 16px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.card-body1 {
+    width:900px;
+    border-radius: 0%;  
+}
+.card {
+    padding: 8px;
+    margin: 3px;
+}
+.card-body1 :hover {
+    background-color: #3f3e3e;
+}
+
+/* FOOTER */
+
+footer p,
+footer a{
+    color: #928c92;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+footer li{
+    list-style-type: none;
+    color: white;
+    opacity: 0.8;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+    
+}
+
+.footer:hover{
+    color: white;
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+
